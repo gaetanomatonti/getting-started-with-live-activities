@@ -11,7 +11,46 @@
 		9B24DC7628A3D595005836B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B24DC7528A3D595005836B5 /* ContentView.swift */; };
 		9B24DC7828A3D596005836B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B24DC7728A3D596005836B5 /* Assets.xcassets */; };
 		9B24DC7B28A3D596005836B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B24DC7A28A3D596005836B5 /* Preview Assets.xcassets */; };
+		9B24DC8828A3D5DA005836B5 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B24DC8728A3D5DA005836B5 /* WidgetKit.framework */; };
+		9B24DC8A28A3D5DA005836B5 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B24DC8928A3D5DA005836B5 /* SwiftUI.framework */; };
+		9B24DC8D28A3D5DA005836B5 /* DeliveryWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B24DC8C28A3D5DA005836B5 /* DeliveryWidget.swift */; };
+		9B24DC8F28A3D5DB005836B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B24DC8E28A3D5DB005836B5 /* Assets.xcassets */; };
+		9B24DC9328A3D5DB005836B5 /* DeliveryWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 9B24DC8528A3D5DA005836B5 /* DeliveryWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9B24DC9B28A3D697005836B5 /* DeliveryAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B24DC9A28A3D697005836B5 /* DeliveryAttributes.swift */; };
+		9B24DC9D28A3D6CE005836B5 /* DeliveryStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B24DC9C28A3D6CE005836B5 /* DeliveryStep.swift */; };
+		9B24DCA428A3D876005836B5 /* Font+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B24DCA328A3D876005836B5 /* Font+Extensions.swift */; };
+		9B24DCA528A3D969005836B5 /* DeliveryAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B24DC9A28A3D697005836B5 /* DeliveryAttributes.swift */; };
+		9B24DCA628A3D969005836B5 /* DeliveryStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B24DC9C28A3D6CE005836B5 /* DeliveryStep.swift */; };
+		9B24DCA728A3D96D005836B5 /* Font+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B24DCA328A3D876005836B5 /* Font+Extensions.swift */; };
+		9B4E289328A4215700B6AFED /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4E289228A4215700B6AFED /* Color+Extensions.swift */; };
+		9B4E289428A4215700B6AFED /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4E289228A4215700B6AFED /* Color+Extensions.swift */; };
+		9B629B4128A3D9E900C4CF72 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B629B4028A3D9E900C4CF72 /* Line.swift */; };
+		9B629B4228A3DA2800C4CF72 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B629B4028A3D9E900C4CF72 /* Line.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B24DC9128A3D5DB005836B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B24DC6828A3D595005836B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B24DC8428A3D5DA005836B5;
+			remoteInfo = DeliveryWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9B24DC9728A3D5DB005836B5 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9B24DC9328A3D5DB005836B5 /* DeliveryWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		9B24DC7028A3D595005836B5 /* ExpressGroceries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpressGroceries.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,6 +58,18 @@
 		9B24DC7528A3D595005836B5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9B24DC7728A3D596005836B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B24DC7A28A3D596005836B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9B24DC8528A3D5DA005836B5 /* DeliveryWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DeliveryWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B24DC8728A3D5DA005836B5 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		9B24DC8928A3D5DA005836B5 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		9B24DC8C28A3D5DA005836B5 /* DeliveryWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryWidget.swift; sourceTree = "<group>"; };
+		9B24DC8E28A3D5DB005836B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B24DC9028A3D5DB005836B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B24DC9828A3D60E005836B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B24DC9A28A3D697005836B5 /* DeliveryAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryAttributes.swift; sourceTree = "<group>"; };
+		9B24DC9C28A3D6CE005836B5 /* DeliveryStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryStep.swift; sourceTree = "<group>"; };
+		9B24DCA328A3D876005836B5 /* Font+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Extensions.swift"; sourceTree = "<group>"; };
+		9B4E289228A4215700B6AFED /* Color+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		9B629B4028A3D9E900C4CF72 /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +80,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9B24DC8228A3D5DA005836B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B24DC8A28A3D5DA005836B5 /* SwiftUI.framework in Frameworks */,
+				9B24DC8828A3D5DA005836B5 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -36,6 +96,8 @@
 			isa = PBXGroup;
 			children = (
 				9B24DC7228A3D595005836B5 /* ExpressGroceries */,
+				9B24DC8B28A3D5DA005836B5 /* DeliveryWidget */,
+				9B24DC8628A3D5DA005836B5 /* Frameworks */,
 				9B24DC7128A3D595005836B5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				9B24DC7028A3D595005836B5 /* ExpressGroceries.app */,
+				9B24DC8528A3D5DA005836B5 /* DeliveryWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,9 +114,11 @@
 		9B24DC7228A3D595005836B5 /* ExpressGroceries */ = {
 			isa = PBXGroup;
 			children = (
+				9B24DCA928A3D98E005836B5 /* Resources */,
+				9B24DCA828A3D985005836B5 /* UI */,
+				9B24DC9F28A3D857005836B5 /* Extensions */,
+				9B24DC9928A3D691005836B5 /* Models */,
 				9B24DC7328A3D595005836B5 /* ExpressGroceriesApp.swift */,
-				9B24DC7528A3D595005836B5 /* ContentView.swift */,
-				9B24DC7728A3D596005836B5 /* Assets.xcassets */,
 				9B24DC7928A3D596005836B5 /* Preview Content */,
 			);
 			path = ExpressGroceries;
@@ -67,6 +132,61 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		9B24DC8628A3D5DA005836B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B24DC8728A3D5DA005836B5 /* WidgetKit.framework */,
+				9B24DC8928A3D5DA005836B5 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B24DC8B28A3D5DA005836B5 /* DeliveryWidget */ = {
+			isa = PBXGroup;
+			children = (
+				9B24DC8C28A3D5DA005836B5 /* DeliveryWidget.swift */,
+				9B24DC8E28A3D5DB005836B5 /* Assets.xcassets */,
+				9B24DC9028A3D5DB005836B5 /* Info.plist */,
+			);
+			path = DeliveryWidget;
+			sourceTree = "<group>";
+		};
+		9B24DC9928A3D691005836B5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9B24DC9A28A3D697005836B5 /* DeliveryAttributes.swift */,
+				9B24DC9C28A3D6CE005836B5 /* DeliveryStep.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9B24DC9F28A3D857005836B5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9B4E289228A4215700B6AFED /* Color+Extensions.swift */,
+				9B24DCA328A3D876005836B5 /* Font+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9B24DCA828A3D985005836B5 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				9B24DC7528A3D595005836B5 /* ContentView.swift */,
+				9B629B4028A3D9E900C4CF72 /* Line.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		9B24DCA928A3D98E005836B5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9B24DC9828A3D60E005836B5 /* Info.plist */,
+				9B24DC7728A3D596005836B5 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,15 +197,34 @@
 				9B24DC6C28A3D595005836B5 /* Sources */,
 				9B24DC6D28A3D595005836B5 /* Frameworks */,
 				9B24DC6E28A3D595005836B5 /* Resources */,
+				9B24DC9728A3D5DB005836B5 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				9B24DC9228A3D5DB005836B5 /* PBXTargetDependency */,
 			);
 			name = ExpressGroceries;
 			productName = ExpressGroceries;
 			productReference = 9B24DC7028A3D595005836B5 /* ExpressGroceries.app */;
 			productType = "com.apple.product-type.application";
+		};
+		9B24DC8428A3D5DA005836B5 /* DeliveryWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B24DC9428A3D5DB005836B5 /* Build configuration list for PBXNativeTarget "DeliveryWidgetExtension" */;
+			buildPhases = (
+				9B24DC8128A3D5DA005836B5 /* Sources */,
+				9B24DC8228A3D5DA005836B5 /* Frameworks */,
+				9B24DC8328A3D5DA005836B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeliveryWidgetExtension;
+			productName = DeliveryWidgetExtension;
+			productReference = 9B24DC8528A3D5DA005836B5 /* DeliveryWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -98,6 +237,9 @@
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
 					9B24DC6F28A3D595005836B5 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					9B24DC8428A3D5DA005836B5 = {
 						CreatedOnToolsVersion = 14.0;
 					};
 				};
@@ -116,6 +258,7 @@
 			projectRoot = "";
 			targets = (
 				9B24DC6F28A3D595005836B5 /* ExpressGroceries */,
+				9B24DC8428A3D5DA005836B5 /* DeliveryWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +273,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9B24DC8328A3D5DA005836B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B24DC8F28A3D5DB005836B5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -137,12 +288,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B24DCA428A3D876005836B5 /* Font+Extensions.swift in Sources */,
 				9B24DC7628A3D595005836B5 /* ContentView.swift in Sources */,
+				9B24DC9D28A3D6CE005836B5 /* DeliveryStep.swift in Sources */,
+				9B24DC9B28A3D697005836B5 /* DeliveryAttributes.swift in Sources */,
+				9B4E289328A4215700B6AFED /* Color+Extensions.swift in Sources */,
+				9B629B4128A3D9E900C4CF72 /* Line.swift in Sources */,
 				9B24DC7428A3D595005836B5 /* ExpressGroceriesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9B24DC8128A3D5DA005836B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B24DC8D28A3D5DA005836B5 /* DeliveryWidget.swift in Sources */,
+				9B24DCA628A3D969005836B5 /* DeliveryStep.swift in Sources */,
+				9B24DCA728A3D96D005836B5 /* Font+Extensions.swift in Sources */,
+				9B629B4228A3DA2800C4CF72 /* Line.swift in Sources */,
+				9B24DCA528A3D969005836B5 /* DeliveryAttributes.swift in Sources */,
+				9B4E289428A4215700B6AFED /* Color+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B24DC9228A3D5DB005836B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B24DC8428A3D5DA005836B5 /* DeliveryWidgetExtension */;
+			targetProxy = 9B24DC9128A3D5DB005836B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		9B24DC7C28A3D596005836B5 /* Debug */ = {
@@ -262,14 +439,17 @@
 		9B24DC7F28A3D596005836B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ExpressGroceries/Preview Content\"";
-				DEVELOPMENT_TEAM = 7G4N3SZHJZ;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ExpressGroceries/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Express Groceries";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -291,14 +471,17 @@
 		9B24DC8028A3D596005836B5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ExpressGroceries/Preview Content\"";
-				DEVELOPMENT_TEAM = 7G4N3SZHJZ;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ExpressGroceries/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Express Groceries";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -311,6 +494,60 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.gaetanomatonti.ExpressGroceries;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9B24DC9528A3D5DB005836B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DeliveryWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Express Groceries Delivery";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gaetanomatonti.ExpressGroceries.DeliveryWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B24DC9628A3D5DB005836B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DeliveryWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Express Groceries Delivery";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gaetanomatonti.ExpressGroceries.DeliveryWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -334,6 +571,15 @@
 			buildConfigurations = (
 				9B24DC7F28A3D596005836B5 /* Debug */,
 				9B24DC8028A3D596005836B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B24DC9428A3D5DB005836B5 /* Build configuration list for PBXNativeTarget "DeliveryWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B24DC9528A3D5DB005836B5 /* Debug */,
+				9B24DC9628A3D5DB005836B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
